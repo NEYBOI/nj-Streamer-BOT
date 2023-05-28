@@ -20,7 +20,7 @@ if MY_PASS:
                 ["Subscribe ❤️","ping📡","status📊","maintainers😎"]
                         
             ],
-            resize_keyboard=True
+            resize_keyboard=False
         )
 else:
             buttonz=ReplyKeyboardMarkup(
@@ -29,7 +29,7 @@ else:
                 ["Subscribe ❤️","ping📡","status📊","maintainers😎"]
                         
             ],
-            resize_keyboard=True
+            resize_keyboard=False
         )
 
             
