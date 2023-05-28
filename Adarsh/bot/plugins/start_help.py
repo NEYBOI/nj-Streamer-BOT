@@ -14,24 +14,7 @@ db = Database(Var.DATABASE_URL, Var.name)
 from pyrogram.types import ReplyKeyboardMarkup
 
 if MY_PASS:
-            buttonz=ReplyKeyboardMarkup(
-            [
-                ["start⚡️","help📚","login🔑","DC"],
-                ["Subscribe ❤️","ping📡","status📊","maintainers😎"]
-                        
-            ],
-            resize_keyboard=False
-        )
-else:
-            buttonz=ReplyKeyboardMarkup(
-            [
-                ["start⚡️","help📚","DC"],
-                ["Subscribe ❤️","ping📡","status📊","maintainers😎"]
-                        
-            ],
-            resize_keyboard=False
-        )
-
+            
             
             
 @StreamBot.on_message((filters.command("start") | filters.regex('start⚡️')) & filters.private )
